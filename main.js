@@ -53,7 +53,7 @@ function convertToMorseCode() {
 
         //hier vergleicht man jeder einzelne Zeichen
         if(morseAlphabet[letter]){
-            output += morseAlphabet[letter] + " "; 
+            output += morseAlphabet[letter] + "  "; 
         } else {
             output += "  ";
         }
